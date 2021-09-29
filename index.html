@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+    * {
+        font-family: 'Amatic SC', cursive;
+        margin: 0;
+    }
+    h3{
+        font-size: 90px;
+    }
+    li{
+        width: 20%;
+        font-size: 30px;
+        padding: 20px;
+    }
+    #navbar{
+        position:fixed;
+        text-align: right;
+        background-color: #000000;
+        opacity: 50%;
+        width: 100%;
+        height: 90px;
+    }
+    #navbar ul{
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+    #navbar ul a{
+        text-decoration: none;
+        color: white;
+        width: 100px;
+    }
+    #empty-space{
+        padding: 50px;
+        background-color: #5e5e5e;
+        width: 100%;
+        height: 90px;
+    } 
+    #welcome-section{
+        text-align: center;
+        height: 700px;
+        background-color: #5e5e5e;
+        color: white;
+        border: #5e5e5e;
+    }
+    #projects{
+        text-align: center;
+        background-color:#303030;
+        color: white;
+    }
+    .project-tile{
+        width: 300px;
+        border: 10px solid #5e5e5e;
+    }
+    #profile-link{
+        height: 200px;
+        background-color: #5e5e5e;
+        color: white;
+    }
+    #profile-link div{
+        display: flex;
+        justify-content: flex-end;
+    }
+  </style>
+</head>
+<html>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#profile-link">Contact</a></li>
+        </ul>
+    </nav>
+    <main style="font-size:50px;">
+        <section id="empty-space"></section>
+        <section id="welcome-section" style="display:flex;justify-content:center;">
+            <div>
+                <h3>-Hey I am Sonali-</h3>
+                <h5><i>Student</i></h5>
+                <h6>College: <a href="http://www.msrit.edu/" target="_blank" style="text-decoration: none; color:white;">Ramaiah Institute of Technology</a></h6>
+            </div>
+        </section>
+        <section id="projects">
+            <h3 style="padding:10px;">These are some of my Projects</h3>
+            <a href="https://codepen.io/jyumek/full/abwBexO" target="_blank"><img src="https://i.pinimg.com/originals/87/df/6d/87df6d60f4cc3c07968ae2127bddcc30.gif" class="project-tile "/></a><figcaption>Tribute Page</figcaption>
+            <a href="https://codepen.io/jyumek/full/NWgpgGV" target="_blank"><img src="https://i.pinimg.com/originals/87/df/6d/87df6d60f4cc3c07968ae2127bddcc30.gif" class="project-tile "/></a><figcaption>Survey Form</figcaption>
+            <a href="https://codepen.io/jyumek/full/yLXMQze" target="_blank"><img src="https://i.pinimg.com/originals/87/df/6d/87df6d60f4cc3c07968ae2127bddcc30.gif" class="project-tile "/></a><figcaption>Product Landing Page</figcaption>
+            <a href="https://codepen.io/jyumek/full/oNwJvjE" target="_blank"><img src="https://i.pinimg.com/originals/87/df/6d/87df6d60f4cc3c07968ae2127bddcc30.gif" class="project-tile "/></a><figcaption>Technical Documentation Page</figcaption>
+        </section>
+        <section id="profile-link">
+            <h4>You can contact me here</h4>
+            <div>
+                <a href="https://github.com/JYumek" target="_blank"><img src="https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png" style="width:50px;margin:10px;"></a>
+                <a href="mailto:1ms19ec029@gmail.com" class="btn contact-details"><img src="https://assets.stickpng.com/thumbs/58485698e0bb315b0f7675a8.png" style="width:50px;margin:10px;"></a>
+            </div>
+        </section>
+    </main>
+</html>
